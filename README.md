@@ -64,6 +64,15 @@ cmake --build .
 ./gpu_random_walk 1000000 1000
 
 
+It can be that you will need that you will need to add specific options on the cmake like:
+
+cmake -G "Visual Studio 17 2022" -A x64 -DCMAKE_CUDA_COMPILER="C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin/nvcc.exe" ../gpu_cuda_version
+
+cmake --build . --config Release
+cmake --build .
+./gpu_random_walk 1000000 1000
+
+
 
 ### Profiling
 
