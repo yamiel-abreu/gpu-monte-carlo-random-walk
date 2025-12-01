@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cuda_runtime.h>
 #include <cmath>
+#include <string>
 
 // Simple xorshift RNG for device
 __device__ unsigned int xorshift32(unsigned int& state) {
