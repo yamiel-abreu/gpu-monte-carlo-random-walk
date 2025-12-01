@@ -1,0 +1,99 @@
+# =============================
+# General
+# =============================
+.DS_Store
+Thumbs.db
+
+# =============================
+# Visual Studio Code
+# =============================
+.vscode/
+.settings/
+.idea/
+
+# =============================
+# CMake build directories
+# =============================
+build/
+build_cpu/
+build_gpu/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =============================
+# Executables and binaries
+# =============================
+*.exe
+*.dll
+*.obj
+*.o
+*.pdb
+*.ilk
+*.lib
+*.exp
+
+# =============================
+# CUDA build artifacts
+# =============================
+*.ptx
+*.cubin
+*.fatbin
+*.sass
+*.nvvp
+*.nsys-rep
+*.nsys-db
+*.qdrep
+*.sqlite
+
+# =============================
+# Profiling output
+# =============================
+profiling/*.txt
+profiling/*.log
+profiling/*.csv
+profiling/*.out
+profiling/*.nsys-rep
+profiling/*.nvprof
+profiling/*.ncu-rep
+
+# =============================
+# Python
+# =============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv
+venv/
+
+# =============================
+# Logs
+# =============================
+*.log
+
+# =============================
+# OS-specific junk
+# =============================
+ehthumbs.db
+Desktop.ini
+
+# =============================
+# Generated results & plots
+# =============================
+analysis/*.png
+analysis/*.pdf
+analysis/*.svg
+analysis/*.csv
+
+# =============================
+# Backup / temp files
+# =============================
+*.tmp
+*.bak
+*.swp
+*.swo
